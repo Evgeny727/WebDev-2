@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1,div,p{
+    margin: 1%;
+}
+body{
+    font-family: sans-serif;
+    background-color: #3d3d3d;
+    color: #fff;
+}
+.content-container{
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    border: 1px solid #ff7301;
+    padding: 40px;
+    box-shadow:10px 20px #1e1e1e;
+    /* background: white; */
+}
+h1{
+    font-family: Oswald;
+    text-decoration: underline;
+    font-weight: bold; 
+    text-transform: uppercase;
+}
+span{
+    color: #ff7301;
+}
+.content-container div{
+    color: gray;
+    width: 600px;
+}
+.content-container p, .content-container_2 p{
+    border-radius: 10px;
+    padding: 30px;
+    background-color: rgb(109, 109, 109);
+}
+h2{
+    font-family: Oswald;
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+li
+{
+    margin-left: 23%;
+}
+.content-container_2{
+    width: 400px;
+    margin-top: 100px;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #ff7301;
+    box-shadow:10px 20px #1e1e1e;
+}
+.content-container_2:hover{
+    transition: 1.5s;
+    transform: translate(10px,-10px);
+}
+.content-container_2 img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+    border:1px solid #ff7301;
+    border-radius: 20px;
+    background: #1e1e1e;
+    width: 300px;
+    height: 40px;
+    color: #fff;
+}
+input:hover {
+    background: black;
+}
+button{
+    margin-top: 20px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow:5px 10px #1e1e1e;
+    border: 1px solid gray;
+    background: gray;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 20px;
+    cursor:pointer;
+
+}
+.form{
+    color: gray;
+    width: 300px;
+    margin-top: 100px;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #ff7301;
+    box-shadow:10px 20px #1e1e1e;
+}
